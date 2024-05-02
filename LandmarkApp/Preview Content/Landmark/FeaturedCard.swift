@@ -7,12 +7,52 @@
 
 import SwiftUI
 
+import SwiftUI
+
+
 struct FeaturedCard: View {
+    var landmark: Landmark
+
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        landmark.featureImage?
+            .resizable()
+            .overlay {
+                TextOverlay(landmark: landmark)
+            }
     }
 }
 
+
+struct TextOverlay: View {
+    var landmark: Landmark
+
+
+    var gradient: LinearGradient {
+        .linearGradient(
+            Gradient(colors: [.black.opacity(0.6), .black.opacity(0)]),
+            startPoint: .bottom,
+            endPoint: .center)
+    }
+
+
+    var body: some View {
+        ZStack(alignment: .bottomLeading) {
+            gradient
+            VStack(alignment: .leading) {
+                Text(landmark.name)
+                    .font(.title)
+                    .bold()
+                Text(landmark.park)
+            }
+            .padding()
+        }
+        .foregroundStyle(.white)
+    }
+}
+
+
 #Preview {
-    FeaturedCard()
+    FeaturedCard(landmark: ModelData().features[1])
+        .aspectRatio(3 / 2, contentMode: .fit)
 }
