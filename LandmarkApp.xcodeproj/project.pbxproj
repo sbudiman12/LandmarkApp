@@ -30,6 +30,8 @@
 		A269C1302BE3C19200EC41B4 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269C12F2BE3C19200EC41B4 /* LandmarkDetail.swift */; };
 		A269C1322BE3C72900EC41B4 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269C1312BE3C72900EC41B4 /* LandmarkCommands.swift */; };
 		A269C1342BE3C94C00EC41B4 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269C1332BE3C94C00EC41B4 /* LandmarkSettings.swift */; };
+		A269C1352BE3CB8100EC41B4 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269C1312BE3C72900EC41B4 /* LandmarkCommands.swift */; };
+		A269C1362BE3CBA000EC41B4 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269C1332BE3C94C00EC41B4 /* LandmarkSettings.swift */; };
 		A26EA48E2BDA055F00D17F51 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26EA48D2BDA055F00D17F51 /* FavoriteButton.swift */; };
 		A26EA4902BDA0F8B00D17F51 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26EA48F2BDA0F8B00D17F51 /* HexagonParameters.swift */; };
 		A26EA4922BDA106C00D17F51 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26EA4912BDA106B00D17F51 /* BadgeBackground.swift */; };
@@ -831,6 +833,7 @@
 			files = (
 				A26EA4AC2BDA21B900D17F51 /* CategoryRow.swift in Sources */,
 				A23EC8C62BE2583B00627168 /* FeaturedCard.swift in Sources */,
+				A269C1352BE3CB8100EC41B4 /* LandmarkCommands.swift in Sources */,
 				A26EA4B02BDA366D00D17F51 /* Profile.swift in Sources */,
 				A2D8A9692BD246B400F0DEA9 /* ContentView.swift in Sources */,
 				A26EA4AA2BDA202400D17F51 /* CategoryHome.swift in Sources */,
@@ -848,6 +851,7 @@
 				A26EA4B22BDA368900D17F51 /* ProfileHost.swift in Sources */,
 				A26EA4942BDA15CB00D17F51 /* BadgeSymbol.swift in Sources */,
 				A2F3708B2BD27A7800412CCD /* LandmarkList.swift in Sources */,
+				A269C1362BE3CBA000EC41B4 /* LandmarkSettings.swift in Sources */,
 				A23EC8C82BE258FC00627168 /* PageView.swift in Sources */,
 				A2D8A9672BD246B400F0DEA9 /* LandmarkAppApp.swift in Sources */,
 				A26EA4B92BDA381C00D17F51 /* ProfileEditor.swift in Sources */,
